@@ -1,0 +1,25 @@
+export function assert(...msg: any[]): void;
+export function clear(...msg: any[]): void;
+export function count(...msg: any[]): void;
+export function countReset(...msg: any[]): void;
+export function debug(...msg: any[]): void;
+export function dir(...msg: any[]): void;
+export function dirxml(...msg: any[]): void;
+export function error(...msg: any[]): void;
+export function group(...msg: any[]): void;
+export function groupCollapsed(...msg: any[]): void;
+export function groupEnd(...msg: any[]): void;
+export function info(...msg: any[]): void;
+export function log(...msg: any[]): void;
+export function profile(...msg: any[]): void;
+export function profileEnd(...msg: any[]): void;
+export function table(...msg: any[]): void;
+export function time(...msg: any[]): void;
+export function timeEnd(...msg: any[]): void;
+export function timeLog(...msg: any[]): void;
+export function timeStamp(...msg: any[]): void;
+export function trace(...msg: any[]): void;
+export function warn(...msg: any[]): void;
+export function beep(): void;
+export function headerChars(char?: string, ...msg: any[]): void;
+//# sourceMappingURL=index.d.ts.map

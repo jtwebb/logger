@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 /* eslint-disable no-console */
 
 const util = require('util');
@@ -33,7 +31,7 @@ const logMeta = {
   warn: { labelStyle: 'black.bgYellow', textStyle: 'yellow', logLevel: logLevels.warn, label: 'Warn' }
 };
 
-const wrap = (style) => {
+const wrap = style => {
   const styles = style.split('.');
 
   const styling = styles.reduce((acc, current) => {
@@ -57,7 +55,7 @@ const wrap = (style) => {
   };
 };
 
-const addLog = (current) => {
+const addLog = current => {
   const meta = logMeta[current];
   if (logLevel >= meta.logLevel) {
     return (...msg) => {

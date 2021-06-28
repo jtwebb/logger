@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "declarationMap": true,
+    "outDir": "build/types",
+    "allowJs": true
+  },
+  "include": [
+    "./src/**/*"
+  ]
+}
